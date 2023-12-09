@@ -1,0 +1,49 @@
+:root{
+    --photo-width: 20%;
+    --profile-width: 40%;
+}.profile{
+     width: 70%;
+     border: solid black 1px;
+     border-radius: 50px;
+     display: flex;
+ }
+.photo{
+    width: var(--photo-width);
+    padding-left: 4%;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+    text-align: center;
+    width: var(--profile-width);
+    /*margin-left: calc ( 100% - ( var ( --photo-width ) + var ( --profile-width ) ) / 2);
+    margin-right: calc(100% - 4% -(var(--photo-width)+ var(--profile-width))/ 2);*/
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.login{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.name, .surname, .phone-number, .birthdate, .email{
+    margin-bottom: 5%;
+    display: flex;
+    /*border: solid 1px blue;*/
+    justify-content: space-between;
+
+}
+.name-field, .surname-field, .phone-number-field, .birthdate-field, .email-field{
+    align-items: flex-end;
+    align-content: flex-end;
+    /*border: solid 1px green;*/
+}
+.change{
+    margin-bottom: 20px;
+    width: 40%;
+    background: #CBCAFF;
+    border-radius: 50px;
+    border: none;
+    margin-left: 30%;
+}

@@ -1,0 +1,41 @@
+.subscription{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 2%;
+}
+.category, .service, .period, .next-date, .amount-money{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.input-field{
+    border-radius: 50px;
+    min-height: 10px;
+    max-height: 50px;
+    min-width: 100px;
+    max-width: 1000px;
+}
+.category-select{
+    border-radius: 50px;
+}
+.word{
+    color: grey;
+}
+.add{
+    border-radius: 50px;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    border: none;
+    background: #CBCAFF;
+
+}

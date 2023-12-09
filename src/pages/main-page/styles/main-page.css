@@ -1,0 +1,244 @@
+/*Главная страница*/
+/*Регистрация*/
+
+.check{
+    display: flex;
+    border: 1px solid grey;
+    width: 60%;
+    border-radius: 20px;
+    height: 200px;
+    box-sizind: border-box;
+    background: url("https://avatars.mds.yandex.net/i?id=7ea912cf369129c6402c7f9ae1b042092f85c5f7-10674688-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 200px;
+}
+
+.check-text{
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+.call{
+    margin-top: 60px;
+    padding-left: 70px;
+    margin-bottom: 80px;
+}
+.parameters{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 0;
+}
+.call-heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+.categories{
+    background-color: #230F9C73;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.youtube-music, .spotify, .netology, .microsoft-teams{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background:  #D9D9D9,  #D9D9D9,  #D9D9D9;
+    background-position: top right 10px, bottom left, top left;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    padding-top: 20px;
+}
+.category-title{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    padding-left: 40%;
+    width: 50%;
+}
+.category-type{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.category-date{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.category-amount{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.groups{
+    display: flex;
+}
+.groups-container{
+    display: flex;
+    flex-direction: column;
+}
+.education{
+    background-color: #0300837D;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+    color: #D7C3FF;
+    font-weight: bold;
+}
+.music-services{
+    transform: skew(10deg, -10deg);
+    background: #F9B87C7D;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 60px;
+    color: #3B1689;
+    font-weight: bold;
+}
+.financial-operations{
+    transform: skew(10deg, 10deg);
+    background: #DBF9227D;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #3B1689;
+    font-weight: bold;
+}
+.groups-title{
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 40px;
+}
+.groups-text{
+    font-size: 50px;
+    padding-left: 40px;
+}
+.pre-form{
+    font-size: 80px;
+    text-align: center;
+}
+.join, .sign-in{
+    background: #0300837D;
+    height: 75px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 200px;
+    border: none;
+    color: white;
+    font-size: 35px;
+}
+.registration{
+    border: 1px solid black;
+    border-radius: 20px;
+    background: url("https://avatars.mds.yandex.net/i?id=7ea912cf369129c6402c7f9ae1b042092f85c5f7-10674688-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 200px;
+    margin-top: 40px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.registration-title{
+    text-align: center;
+}
+.name, .phone-number, .email{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.name-field, .phone-number-field, .email-field, .password1-input, .password2-input{
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    padding-left: 30px;
+}
+name-field::placeholder{
+    /*padding-top: 30px;*/
+}
+.password-form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.lock{
+    width: 150px;
+}
+.password-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.ok{
+    background: #0300837D;
+    height: 75px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 400px;
+    border: none;
+    color: white;
+    font-size: 35px;
+}
+
+/*Авторизация*/
+
+.registration{
+    border: 1px solid black;
+    border-radius: 20px;
+    background: url("https://avatars.mds.yandex.net/i?id=7ea912cf369129c6402c7f9ae1b042092f85c5f7-10674688-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 200px;
+    margin-top: 40px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.registration-title{
+    text-align: center;
+}
+.name, .password{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.name-field{
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    padding-left: 30px;
+}
+.password-field{
+    display: block;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.ok{
+    background: #FFA8007D;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 1000px;
+    border: none;
+    color: white;
+    font-size: 35px;
+}

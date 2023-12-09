@@ -1,0 +1,40 @@
+.app-style {
+    border-radius: 30px;
+    box-shadow: 8px 9px 9px 0 rgba(34, 60, 80, 0.2);
+}
+
+.navigation-body-wrapper {
+    background-color: #F1F0F0;
+    height: 100px;
+}
+
+.content-data-strip {
+    background-color: #8382C2;
+    height: 180px;
+    /*margin-top: 60px;*/
+}
+
+.card-wrapper {
+    background-color: #F1F0F0;
+    height: 160px;
+    width: 160px;
+}
+
+.card-block-wrapper {
+    margin: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 15px;
+    gap: 15px;
+
+}
+
+.flex-container > div{
+    padding: 8px;
+}
