@@ -1,8 +1,10 @@
 import './styles/user-page.css';
+import NavigationBar from "../../components/NavigationBar";
 
 export default function UserPage() {
     return (
         <>
+            <NavigationBar/>
         <h1>Пользовательский аккаунт</h1>
             <div className="profile">
                 <img
